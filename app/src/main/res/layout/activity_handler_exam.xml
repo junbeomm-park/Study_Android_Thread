@@ -11,14 +11,23 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_margin="30dp"
-        android:textSize="250sp"
+        android:textSize="20sp"
         android:gravity="center_horizontal"
+        android:background="#F3E7C5"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="숫자 출력하기"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="btn_click"
+        />
+    <Button
+        android:id="@+id/msgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="숫자 출력하기(Message객체활용)"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:onClick="btn_click"
         />
