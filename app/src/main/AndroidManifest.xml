@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Thread">
-        <activity android:name=".MainActivity">
+        <activity android:name=".HandlerPostTestActivity"></activity>
+        <activity android:name=".HandlerExamActivity02" />
+        <activity android:name=".HandlerExamActivity01" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Logo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
